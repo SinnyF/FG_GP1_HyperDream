@@ -15,7 +15,7 @@ public class SaveSystem
 
     public static string SaveFileName()
     {
-        string saveFile = Application.persistentDataPath  + "/ save" + ".save";
+        string saveFile = Application.persistentDataPath  + "/ SaveData" + ".JSON";
         return saveFile;
     }
 
@@ -29,16 +29,9 @@ public class SaveSystem
 
     private void HandleSave()
     {
-        if(MenuManager.instance != null)
+        if(GameManager.instance != null)
         {
-            _saveData._languageSettings = MenuManager.instance.m_Language;
-            _saveData._textSettings = MenuManager.instance.m_Text;
-            _saveData._volumeSettings = MenuManager.instance.volumeSlider.value;
-        }
-
-        if(HTPAnim.instance != null)
-        {
-            _saveData._highscore = HTPAnim.instance.playerTime;
+            _saveData = GameManager.instance._saveData;
         }
     }
 
@@ -59,10 +52,12 @@ public class SaveSystem
     {
         if (GameManager.instance != null)
         {
-            GameManager.instance._languageSettings = _saveData._languageSettings;
+            GameManager.instance._saveData = _saveData;
+
+            /*GameManager.instance._languageSettings = _saveData._languageSettings;
             GameManager.instance._textSettings = _saveData._textSettings;
             GameManager.instance._volumeSettings = _saveData._volumeSettings;
-            GameManager.instance._highscore = _saveData._highscore;
+            GameManager.instance._highscore = _saveData._highscore;*/
 
             GameManager.instance.ApplyAllSettings();
         }

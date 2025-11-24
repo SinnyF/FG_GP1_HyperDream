@@ -1,23 +1,33 @@
+using UnityEditor.Overlays;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     
-    SaveSystem _saveData = new SaveSystem();
-    public Language _languageSettings;
-    public Text _textSettings;
-    public float _volumeSettings;
+    SaveSystem _saveSystem = new SaveSystem();
     public static GameManager instance;
-    public float _highscore;
+    public SaveSystem.SaveData _saveData = new SaveSystem.SaveData();
+    Language _languageSettings;
+    Text _textSettings;
+    float _volumeSettings;
+    float _highscore;
 
     AudioSource[] _audioSources;
 
     private void Awake()
     {
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-        _saveData.Load();
+        if (instance == null)
+            instance = this;
+        else
+        {
+            Debug.Log($"Instance is equal to: {name}");
+            Destroy(gameObject); 
+            return;
+        }
+
+            DontDestroyOnLoad(gameObject);
+        _saveSystem.Load();
 
         /*if(MenuManager.instance != null)
         {
@@ -30,6 +40,7 @@ public class GameManager : MonoBehaviour
 
     void SceneChanged(Scene scene, LoadSceneMode loadSceneMode)
     {
+        Debug.Log("GameManager has seen a scene change.");
         ApplyAllSettings();
     }
 
@@ -37,18 +48,18 @@ public class GameManager : MonoBehaviour
     {
         if(MenuManager.instance != null)
         {
-            MenuManager.instance.m_Language = _languageSettings;
-            MenuManager.instance.m_Text = _textSettings;
-            MenuManager.instance.volumeSlider.value = _volumeSettings;
+            MenuManager.instance.m_Language = _saveData._languageSettings;
+            MenuManager.instance.m_Text = _saveData._textSettings;
+            MenuManager.instance.volumeSlider.value = _saveData._volumeSettings;
         }
         _audioSources = FindObjectsByType<AudioSource>(FindObjectsSortMode.None);
         foreach (AudioSource source in _audioSources)
         {
-            source.volume = _volumeSettings;
+            source.volume = _saveData._volumeSettings;
         }
         if(HTPAnim.instance != null)
         {
-            HTPAnim.instance._highscore = _highscore;
+            HTPAnim.instance._highscore = _saveData._highscore;
         }
     }
 }

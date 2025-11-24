@@ -101,25 +101,21 @@ public class MenuManager : MonoBehaviour
                     checkMarks[0].SetActive(true);
                     checkMarks[1].SetActive(false);
                     m_Language = Language.English;
-                    SaveSettings();
                     break;
                 case 2:
                     checkMarks[0].SetActive(false);
                     checkMarks[1].SetActive(true);
                     m_Language = Language.Swedish;
-                    SaveSettings();
                     break;
                 case 1:
                     checkMarks[2].SetActive(true);
                     checkMarks[3].SetActive(false);
                     m_Text = Text.Aesthetic;
-                    SaveSettings();
                     break;
                 case 0:
                     checkMarks[2].SetActive(false);
                     checkMarks[3].SetActive(true);
                     m_Text = Text.Readable;
-                    SaveSettings();
                     break;
             }
         }
@@ -190,15 +186,10 @@ public class MenuManager : MonoBehaviour
                 if(stickValue.x > 0.8)
                 {
                     volumeSlider.value++;
-                    SaveSettings();
-                    _saveSystem.Load();
                 }
                 else if (stickValue.x < -0.8)
                 {
                     volumeSlider.value--;
-                    SaveSettings();
-                    _saveSystem.Load();
- 
                 }
             }
         }
@@ -357,6 +348,10 @@ public class MenuManager : MonoBehaviour
 
     public void SaveSettings()
     {
+        GameManager.instance._saveData._languageSettings = m_Language;
+        GameManager.instance._saveData._textSettings = m_Text;
+        GameManager.instance._saveData._volumeSettings = volumeSlider.value;
+
         _saveSystem.Save();
     }
 }
