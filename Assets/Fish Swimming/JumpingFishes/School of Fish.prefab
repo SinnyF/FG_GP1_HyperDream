@@ -1,0 +1,1561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8479773146741159677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2685407127394284532}
+  m_Layer: 0
+  m_Name: School of Fish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2685407127394284532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479773146741159677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004999995, y: 0.6609999, z: 2.6859996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3545149754162468965}
+  - {fileID: 1497085946771668574}
+  - {fileID: 5153407231657694947}
+  - {fileID: 1590370300154892762}
+  - {fileID: 4033433503159696544}
+  - {fileID: 6722523812286440492}
+  - {fileID: 4416511291368778431}
+  - {fileID: 6805725115328153437}
+  - {fileID: 4419138992699307475}
+  - {fileID: 3363102586819389000}
+  - {fileID: 2501252191319065825}
+  - {fileID: 2083789139919163017}
+  - {fileID: 5395771235667225980}
+  - {fileID: 9073537975414022673}
+  - {fileID: 4149964095572420556}
+  - {fileID: 6173445950073179832}
+  - {fileID: 7819569691567193659}
+  - {fileID: 2492199327551394213}
+  - {fileID: 3694604731561891852}
+  - {fileID: 6198977890788358084}
+  - {fileID: 2736346515956933175}
+  - {fileID: 627031404759446252}
+  - {fileID: 1705677811231895330}
+  - {fileID: 4971770858613406260}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &88699553364356010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30200016
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.326
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &6805725115328153437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 88699553364356010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &144932000818677979
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2400001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3159997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &6722523812286440492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 144932000818677979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &670724793840098099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20700008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.127
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &6198977890788358084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 670724793840098099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &785219850275250767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.41199988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5499997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &6173445950073179832 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 785219850275250767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1560625299415449995
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8190001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.9119997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &5395771235667225980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 1560625299415449995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1787156902743947796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596257644616173789, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: amplitude
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596257644616173789, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: rotationAngle
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.607
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3159997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &5153407231657694947 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 1787156902743947796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1996944460769400515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &4971770858613406260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 1996944460769400515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2495693062865653478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.92900014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &9073537975414022673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 2495693062865653478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3732749743392527052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.41199988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.204
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &7819569691567193659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 3732749743392527052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4873684278772277886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.161
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34099984
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &2083789139919163017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 4873684278772277886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5251792858681983957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.004999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0189999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &1705677811231895330 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 5251792858681983957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5286087373581597997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5400001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.9119997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &1590370300154892762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 5286087373581597997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5444678869550338729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596257644616173789, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: amplitude
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596257644616173789, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: rotationAngle
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0170001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &1497085946771668574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 5444678869550338729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6339516403655187995
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.004999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0189999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5959997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &627031404759446252 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 6339516403655187995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7062572992003032648
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19200015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.6719997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &4416511291368778431 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 7062572992003032648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7069027063322712356
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10799992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &4419138992699307475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 7069027063322712356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7412493371348503355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.51900005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3159996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &4149964095572420556 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 7412493371348503355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7543660559530217559
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &4033433503159696544 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 7543660559530217559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7785609145308886267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20700008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4729996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &3694604731561891852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 7785609145308886267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7961013675236045970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.90700006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.9119997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &3545149754162468965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 7961013675236045970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8207237281220872895
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.166
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6039999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9369996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &3363102586819389000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 8207237281220872895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8840743646802202304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.123000145
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &2736346515956933175 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 8840743646802202304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9070187238083099986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.607
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.046000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &2492199327551394213 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 9070187238083099986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9079237833300895766
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2685407127394284532}
+    m_Modifications:
+    - target: {fileID: 6053406920656696909, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_Name
+      value: The female fish (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.161
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.82500017
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.5909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+--- !u!4 &2501252191319065825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6866253479914138871, guid: bd2fee09b30991246b0ddc995263e27f, type: 3}
+  m_PrefabInstance: {fileID: 9079237833300895766}
+  m_PrefabAsset: {fileID: 0}
