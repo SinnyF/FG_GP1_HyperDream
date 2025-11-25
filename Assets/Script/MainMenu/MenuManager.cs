@@ -20,7 +20,6 @@ public class MenuManager : MonoBehaviour
     [SerializeField] CameraPoint[] points;
     GameObject[] TextOptions;
     Vector2 stickValue;
-    bool pausedMove = false;
     [SerializeField] TextMeshPro[] textOptions;
     public TextMeshPro currentSelectedText;
     List<RectTransform> arrowPoints = new List<RectTransform>();
@@ -29,6 +28,7 @@ public class MenuManager : MonoBehaviour
     public UnityEngine.UI.Slider volumeSlider;
     Canvas optionsCanvas;
     public static MenuManager instance;
+    bool pausedMove = false;
 
    [Serializable] public struct CameraPoint
     {
