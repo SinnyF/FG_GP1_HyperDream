@@ -18,11 +18,11 @@ public class MenuManager : MonoBehaviour
     CameraBrain cBrain;
     public int menuValue = 1, highestMenu = 0, lowestMenu = 0, optionsValue;
     [SerializeField] CameraPoint[] points;
-    GameObject[] TextOptions;
+    [SerializeField]GameObject[] TextOptions;
     Vector2 stickValue;
     [SerializeField] TextMeshPro[] textOptions;
     public TextMeshPro currentSelectedText;
-    List<RectTransform> arrowPoints = new List<RectTransform>();
+    [SerializeField]List<RectTransform> arrowPoints = new List<RectTransform>();
     public GameObject[] checkMarks;
     RectTransform arrowTransform;
     public UnityEngine.UI.Slider volumeSlider;
@@ -53,7 +53,6 @@ public class MenuManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        _saveSystem.Load();
         cBrain = Camera.main.GetComponent<CameraBrain>();
 
         TextOptions = GameObject.FindGameObjectsWithTag("Text");
@@ -186,10 +185,14 @@ public class MenuManager : MonoBehaviour
                 if(stickValue.x > 0.8)
                 {
                     volumeSlider.value++;
+                    SaveSettings();
+                    GameManager.instance.ApplyAllSettings();
                 }
                 else if (stickValue.x < -0.8)
                 {
                     volumeSlider.value--;
+                    SaveSettings();
+                    GameManager.instance.ApplyAllSettings();
                 }
             }
         }

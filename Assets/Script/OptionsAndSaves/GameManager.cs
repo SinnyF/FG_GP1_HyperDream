@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     float _volumeSettings;
     float _highscore;
 
-    AudioSource[] _audioSources;
+    [SerializeField]AudioSource[] _audioSources;
 
     private void Awake()
     {
@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
             instance = this;
         else
         {
-            Debug.Log($"Instance is equal to: {name}");
             Destroy(gameObject); 
             return;
         }
@@ -34,13 +33,15 @@ public class GameManager : MonoBehaviour
         _menuManager = MenuManager.instance
         }*/
         
-
         SceneManager.sceneLoaded += SceneChanged;
+
+        SetupReferences();
     }
 
     void SceneChanged(Scene scene, LoadSceneMode loadSceneMode)
     {
         Debug.Log("GameManager has seen a scene change.");
+        SetupReferences();
         ApplyAllSettings();
     }
 
@@ -52,14 +53,21 @@ public class GameManager : MonoBehaviour
             MenuManager.instance.m_Text = _saveData._textSettings;
             MenuManager.instance.volumeSlider.value = _saveData._volumeSettings;
         }
-        _audioSources = FindObjectsByType<AudioSource>(FindObjectsSortMode.None);
+        
         foreach (AudioSource source in _audioSources)
         {
-            source.volume = _saveData._volumeSettings;
+            //Volume of audio source is equal to "volumeSettings / the max value for the slider in the MenuManager"
+            source.volume = _saveData._volumeSettings / 10;
         }
         if(HTPAnim.instance != null)
         {
             HTPAnim.instance._highscore = _saveData._highscore;
         }
+    }
+
+    //Code for finding objects that need to be modified by the options, currently just audio and text.
+    private void SetupReferences()
+    {
+        _audioSources = FindObjectsByType<AudioSource>(FindObjectsSortMode.None);
     }
 }
