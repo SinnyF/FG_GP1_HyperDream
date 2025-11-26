@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: f84e1a1532039aa44b9e14cc2773aa5a, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -804,7 +804,7 @@ RectTransform:
   m_AnchoredPosition: {x: -2.1800005, y: 4.4}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &554019271
+--- !u!21 &556767073
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -857,7 +857,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 0d93082ae02da6249a3897148cfbefe4, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: -0.00011999995}
+        m_Offset: {x: 0, y: -0.043896727}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
