@@ -61,11 +61,11 @@ public class MenuManager : MonoBehaviour
             text.SetActive(false);
         }
 
-        GameObject[] arrowPointsOBJ = GameObject.FindGameObjectsWithTag("ArrowPoints");
+        /*GameObject[] arrowPointsOBJ = GameObject.FindGameObjectsWithTag("ArrowPoints");
         foreach (GameObject rect in arrowPointsOBJ)
         {
             arrowPoints.Add(rect.GetComponent<RectTransform>());
-        }
+        }*/
 
         checkMarks = GameObject.FindGameObjectsWithTag("CheckMark");
 
