@@ -18,17 +18,17 @@ public class MenuManager : MonoBehaviour
     CameraBrain cBrain;
     public int menuValue = 1, highestMenu = 0, lowestMenu = 0, optionsValue;
     [SerializeField] CameraPoint[] points;
-    GameObject[] TextOptions;
+    [SerializeField]GameObject[] TextOptions;
     Vector2 stickValue;
-    bool pausedMove = false;
     [SerializeField] TextMeshPro[] textOptions;
     public TextMeshPro currentSelectedText;
-    List<RectTransform> arrowPoints = new List<RectTransform>();
+    [SerializeField]List<RectTransform> arrowPoints = new List<RectTransform>();
     public GameObject[] checkMarks;
     RectTransform arrowTransform;
     public UnityEngine.UI.Slider volumeSlider;
     Canvas optionsCanvas;
     public static MenuManager instance;
+    bool pausedMove = false;
 
    [Serializable] public struct CameraPoint
     {
@@ -53,7 +53,6 @@ public class MenuManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        _saveSystem.Load();
         cBrain = Camera.main.GetComponent<CameraBrain>();
 
         TextOptions = GameObject.FindGameObjectsWithTag("Text");
@@ -62,11 +61,11 @@ public class MenuManager : MonoBehaviour
             text.SetActive(false);
         }
 
-        GameObject[] arrowPointsOBJ = GameObject.FindGameObjectsWithTag("ArrowPoints");
+        /*GameObject[] arrowPointsOBJ = GameObject.FindGameObjectsWithTag("ArrowPoints");
         foreach (GameObject rect in arrowPointsOBJ)
         {
             arrowPoints.Add(rect.GetComponent<RectTransform>());
-        }
+        }*/
 
         checkMarks = GameObject.FindGameObjectsWithTag("CheckMark");
 
@@ -101,25 +100,21 @@ public class MenuManager : MonoBehaviour
                     checkMarks[0].SetActive(true);
                     checkMarks[1].SetActive(false);
                     m_Language = Language.English;
-                    SaveSettings();
                     break;
                 case 2:
                     checkMarks[0].SetActive(false);
                     checkMarks[1].SetActive(true);
                     m_Language = Language.Swedish;
-                    SaveSettings();
                     break;
                 case 1:
                     checkMarks[2].SetActive(true);
                     checkMarks[3].SetActive(false);
                     m_Text = Text.Aesthetic;
-                    SaveSettings();
                     break;
                 case 0:
                     checkMarks[2].SetActive(false);
                     checkMarks[3].SetActive(true);
                     m_Text = Text.Readable;
-                    SaveSettings();
                     break;
             }
         }
@@ -191,14 +186,13 @@ public class MenuManager : MonoBehaviour
                 {
                     volumeSlider.value++;
                     SaveSettings();
-                    _saveSystem.Load();
+                    GameManager.instance.ApplyAllSettings();
                 }
                 else if (stickValue.x < -0.8)
                 {
                     volumeSlider.value--;
                     SaveSettings();
-                    _saveSystem.Load();
- 
+                    GameManager.instance.ApplyAllSettings();
                 }
             }
         }
@@ -357,6 +351,10 @@ public class MenuManager : MonoBehaviour
 
     public void SaveSettings()
     {
+        GameManager.instance._saveData._languageSettings = m_Language;
+        GameManager.instance._saveData._textSettings = m_Text;
+        GameManager.instance._saveData._volumeSettings = volumeSlider.value;
+
         _saveSystem.Save();
     }
 }

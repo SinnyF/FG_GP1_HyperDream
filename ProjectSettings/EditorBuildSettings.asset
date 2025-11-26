@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/_CharacterSelect.unity
     guid: def86a8479375c349a1050736dcec518
   - enabled: 1
-    path: Assets/Scenes/HyperDream_BETA_251105-1630.unity
-    guid: 05f3f8f7123f4b14291d5643e1ec278c
+    path: Assets/Scenes/Final_HyperDream.unity
+    guid: bc68f1c918b6486438e2ead094d87e65
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

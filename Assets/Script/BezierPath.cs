@@ -14,7 +14,6 @@ public class BezierPath : MonoBehaviour
     [SerializeField] float[] distances;
     Vector3 lastPos;
     Quaternion direction;
-    int hack = 0;
     private void Start()
     {
         

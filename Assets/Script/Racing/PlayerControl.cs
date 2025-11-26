@@ -23,7 +23,7 @@ public class PlayerControl : MonoBehaviour
     public ParticleSystem landingDust;
     public moveState enumstate;
     [SerializeField] player enumplayer;
-    [SerializeField] int particleThreshold = 5, stepCount = 0;
+    [SerializeField] int particleThreshold = 5;
     [SerializeField] float speedMax = 10, speedDecay = 1f, countTime = 1f, jumpHeight = 3, jumpSpeed = 2f, speedMod = 10f, jumpDelay = 0.1f;
     public bool isDisabled = false;
     //public bool easyMode;
