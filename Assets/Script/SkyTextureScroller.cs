@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[ExecuteAlways]
 [RequireComponent(typeof(MeshRenderer))]
 public class SkyTextureScroller : MonoBehaviour
 {
